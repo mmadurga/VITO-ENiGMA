@@ -1,0 +1,4 @@
+[deps]
+Plotly = "58dd65bb-95f3-509e-9936-c39a10fdeae7"
+PlotlyBase = "a03496cd-edff-5a9b-9e67-9cda94a718b5"
+PlotlyKaleido = "f2990250-8cf9-495f-b13a-cce12b45703c"
