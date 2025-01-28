@@ -13,7 +13,7 @@ Returns a three element list containing: parameters from fit; standard error of 
 data:           histogram in the [energy,counts] format
 xlow:           low energy cut for the fit
 xhigh:          high energy cut for the fit
-param:          initial fit parameters vector (must be 3*n+1). Format: [background-constant,background-slope,area1,centroid1,sigma1,area2,centroid2,sigma2,...]
+param:          initial fit parameters vector (must be 3*n+2). Format: [background-constant,background-slope,area1,centroid1,sigma1,area2,centroid2,sigma2,...]
 n:              number of peaks to fit (default=1)
 lowerbounds:    lower parameter bounds (optional). same format as param
 upperbounds:    upper parameter bounds (optional). same format as param
@@ -71,7 +71,7 @@ Returns a three element list containing: parameters from fit; standard error of 
 data:           histogram in the [energy,counts] format
 xlow:           low energy cut for the fit
 xhigh:          high energy cut for the fit
-param:          initial fit parameters vector (must be 3*n+1). Format: [background-constant,background-slope,area1,centroid1,sigma1,area2,centroid2,sigma2,...]
+param:          initial fit parameters vector (must be 3*n+2). Format: [background-constant,background-slope,area1,centroid1,sigma1,area2,centroid2,sigma2,...]
 n:              number of peaks to fit (default=1)
 lowerbounds:    lower parameter bounds (optional). same format as param
 upperbounds:    upper parameter bounds (optional). same format as param
