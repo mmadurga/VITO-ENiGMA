@@ -1,0 +1,66 @@
+  <Channel number="1"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+-0.13299027678250339     0.17295105961242427
+</Calibration>
+</Channel>
+
+  <Channel number="2"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+-0.39815730754829115     0.1725793134601463
+</Calibration>
+</Channel>
+
+  <Channel number="3"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+-0.18027347446703726     0.17166779755269093
+</Calibration>
+</Channel>
+
+  <Channel number="4"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+-0.19526427438231633     0.18779479234688182
+</Calibration>
+</Channel>
+
+  <Channel number="5"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+-0.022563664732680993     0.18438019526000426
+</Calibration>
+</Channel>
+
+  <Channel number="6"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+0.14982468887404335     0.1842642602378992
+</Calibration>
+</Channel>
+
+  <Channel number="7"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+-0.2753851125915724     0.18068397549645024
+</Calibration>
+</Channel>
+
+  <Channel number="8"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+1.221444008523308     0.18154373503198767
+</Calibration>
+</Channel>
+
+  <Channel number="9"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+1.3607573513818245     0.17796114949513794
+</Calibration>
+</Channel>
+
+  <Channel number="10"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+1.0903311511455303     0.18276591144473645
+</Calibration>
+</Channel>
+
+  <Channel number="11"  type="clover" subtype="clover_high">
+<Calibration model="linear" max="max">
+0.5587063897959886     0.18094469309278408
+</Calibration>
+</Channel>
+
