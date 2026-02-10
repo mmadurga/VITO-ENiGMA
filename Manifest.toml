@@ -2,23 +2,7 @@
 
 julia_version = "1.12.4"
 manifest_format = "2.0"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-project_hash = "954406d997cc3deeb6ae2772b62ad7d12a12169a"
-=======
-project_hash = "56705677da4114b26bf1103ff38fb7b1164603cb"
->>>>>>> da715b9 (updating cyrstal calibration)
-=======
-project_hash = "954406d997cc3deeb6ae2772b62ad7d12a12169a"
->>>>>>> 9a47d8d (analysis of efficiencies assymetries)
-=======
-project_hash = "954406d997cc3deeb6ae2772b62ad7d12a12169a"
->>>>>>> e9e0b75 (recover)
-=======
 project_hash = "b381ebb75a0754d8b7b115a483acb0be7dee8826"
->>>>>>> e3ca232 (added 47K clover high gain data and gamma analysis notebook)
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -29,10 +13,10 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 version = "1.11.0"
 
 [[deps.AssetRegistry]]
-deps = ["Distributed", "JSON", "Pidfile", "SHA", "Test"]
-git-tree-sha1 = "b25e88db7944f98789130d7b503276bc34bc098e"
+deps = ["JSON", "Pidfile", "SHA"]
+git-tree-sha1 = "902b85010203830d4bc02259f5450d2e16b316d8"
 uuid = "bf4720bc-e11a-5d0c-854e-bdca1663c893"
-version = "0.1.0"
+version = "0.1.1"
 
 [[deps.Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
@@ -346,16 +330,28 @@ uuid = "58dd65bb-95f3-509e-9936-c39a10fdeae7"
 version = "0.4.1"
 
 [[deps.PlotlyBase]]
-deps = ["ColorSchemes", "Dates", "DelimitedFiles", "DocStringExtensions", "JSON", "LaTeXStrings", "Logging", "Parameters", "Pkg", "REPL", "Requires", "Statistics", "UUIDs"]
-git-tree-sha1 = "56baf69781fc5e61607c3e46227ab17f7040ffa2"
+deps = ["ColorSchemes", "Colors", "Dates", "DelimitedFiles", "DocStringExtensions", "JSON", "LaTeXStrings", "Logging", "Parameters", "Pkg", "REPL", "Requires", "Statistics", "UUIDs"]
+git-tree-sha1 = "6256ab3ee24ef079b3afa310593817e069925eeb"
 uuid = "a03496cd-edff-5a9b-9e67-9cda94a718b5"
-version = "0.8.19"
+version = "0.8.23"
+
+    [deps.PlotlyBase.extensions]
+    DataFramesExt = "DataFrames"
+    DistributionsExt = "Distributions"
+    IJuliaExt = "IJulia"
+    JSON3Ext = "JSON3"
+
+    [deps.PlotlyBase.weakdeps]
+    DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+    Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+    IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+    JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 
 [[deps.PlotlyJS]]
 deps = ["Base64", "Blink", "DelimitedFiles", "JSExpr", "JSON", "Kaleido_jll", "Markdown", "Pkg", "PlotlyBase", "PlotlyKaleido", "REPL", "Reexport", "Requires", "WebIO"]
-git-tree-sha1 = "e415b25fdec06e57590a7d5ac8e0cf662fa317e2"
+git-tree-sha1 = "287e092914da6c91f002aafcf82a2ec065bf94a3"
 uuid = "f0f68f2c-4968-5e81-91da-67840de0976a"
-version = "0.18.15"
+version = "0.18.17"
 
     [deps.PlotlyJS.extensions]
     CSVExt = "CSV"
@@ -370,10 +366,10 @@ version = "0.18.15"
     JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
 
 [[deps.PlotlyKaleido]]
-deps = ["Base64", "JSON", "Kaleido_jll"]
-git-tree-sha1 = "3210de4d88af7ca5de9e26305758a59aabc48aac"
+deps = ["Artifacts", "Base64", "JSON", "Kaleido_jll"]
+git-tree-sha1 = "c7a270d11881c0709052f8e3def3d60d551e99f3"
 uuid = "f2990250-8cf9-495f-b13a-cce12b45703c"
-version = "2.2.5"
+version = "2.3.1"
 
 [[deps.PrecompileTools]]
 deps = ["Preferences"]
@@ -383,9 +379,9 @@ version = "1.3.3"
 
 [[deps.Preferences]]
 deps = ["TOML"]
-git-tree-sha1 = "0f27480397253da18fe2c12a4ba4eb9eb208bf3d"
+git-tree-sha1 = "522f093a29b31a93e34eaea17ba055d850edea28"
 uuid = "21216c6a-2e73-6563-6e65-726566657250"
-version = "1.5.0"
+version = "1.5.1"
 
 [[deps.Printf]]
 deps = ["Unicode"]
