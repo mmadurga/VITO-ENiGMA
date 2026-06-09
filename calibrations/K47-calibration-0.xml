@@ -21,9 +21,10 @@
 
   <Channel number="4"  type="clover" subtype="clover_high">
 <Calibration model="linear" max="16000">
--0.6544720695139473     0.1845469328667626
+-0.784678876926219     0.17314930718475904
 </Calibration>
 </Channel>
+# done
 
   <Channel number="5"  type="clover" subtype="clover_high">
 <Calibration model="linear" max="16000">
